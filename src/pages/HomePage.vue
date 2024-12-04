@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from 'vue-router';
+
 
 </script>
 
@@ -13,9 +15,15 @@
     <section class="row">
       <div class="col-12">
         <div class="d-flex justify-content-center">
-          <router-link :to="{ name: 'Cars' }">
+          <!-- <router-link :to="{ name: 'Cars' }">
             <button class="btn btn-success">Cars 🚗</button>
           </router-link>
+        </div>
+        <div class="d-flex justify-content-center m-3">
+          <router-link :to="{ name: 'Houses' }">
+            <button class="btn btn-primary">house</button>
+          </router-link> -->
+
         </div>
       </div>
     </section>

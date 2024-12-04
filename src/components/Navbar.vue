@@ -30,7 +30,14 @@ function toggleTheme() {
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
-
+        <li>
+          <RouterLink :to="{ name: 'Houses' }" class="btn text-light lighten-30 selectable text-uppercase"> Houses
+          </RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'Cars' }" class="btn text-light lighten-30 selectable text-uppercase"> Cars
+          </RouterLink>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <div>
